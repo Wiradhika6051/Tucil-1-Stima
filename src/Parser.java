@@ -1,6 +1,8 @@
 import java.awt.desktop.SystemEventListener;
 import java.io.*;
 import java.io.File;
+import java.util.Locale;
+
 public class Parser {
     private File file;
     public Parser(File file){
@@ -18,7 +20,7 @@ public class Parser {
             if(line!=null) {
                 //isi matriks
                 while (line != null && line.length() > 0) {
-                    isiMatriks += line;
+                    isiMatriks += line.toUpperCase();
                     isiMatriks += '\n';
                     line = reader.readLine();
                 }
@@ -26,7 +28,7 @@ public class Parser {
                 String isiListKata = "";
                 line = reader.readLine();
                 while (line != null) {
-                    isiListKata += line;
+                    isiListKata += line.toUpperCase();
                     isiListKata += '\n';
                     line = reader.readLine();
                 }

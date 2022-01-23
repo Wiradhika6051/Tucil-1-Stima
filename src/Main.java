@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Masukkan nama file:");
         Scanner sc = new Scanner(System.in);
         String filename = sc.nextLine();
-        File file = new File(filename);
+        File file = new File("../test/"+filename);
         //Membaca isi file
         Parser parser = new Parser(file);
         ParserResult res = parser.parse();
@@ -37,6 +37,8 @@ public class Main {
         hasilAkhir += finalResult.getStep();
         //Menampilkan hasil
         System.out.println(hasilAkhir);
+        System.out.println("\nTekan tombol apa saja lalu tekan enter untuk keluar...");
+        String end = sc.next();
     }
     //menambahkan list kata ke hasil akhir
     private static String listOfWords(ArrayList<String> listKata){
