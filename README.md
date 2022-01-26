@@ -2,9 +2,9 @@
 Sebuah program untuk menyelesaikan permainan Word Search Puzzle
 
 # Identitas Author
-Nama: Fawwaz Anugrah Wiradhika Dharmasatya
-NIM:13520086
-Jurusan:Teknik Informatika
+- Nama: Fawwaz Anugrah Wiradhika Dharmasatya
+- NIM:13520086
+- Jurusan:Teknik Informatika
 
 # Daftar Isi
 1. [Deskripsi Singkat](#deskripsi-singkat)
