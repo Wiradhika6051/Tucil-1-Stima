@@ -33,3 +33,7 @@ Sebuah program untuk menyelesaikan permainan Word Search Puzzle
  4. Jalankan **run.bat**.
  5. Tuliskan nama file yang ingin dibuka beserta ekstensinya (misal: **small-1.txt**).
  6. Tunggu program bekerja dan hasilnya akan ditampilkan ke layar beserta list kata yang sudah ditemukan terurut berdasarkan urutan penemuan, waktu algoritma bekerja, jumlah    perbandingan sampai program selesai, serta jumlah kata yang berhasil ditemukan.
+
+ ## Troubleshooting
+ Jika file **run.bat** tidak bisa dijalankan, maka pada folder **bin** disediakan semua file .class yang tinggal dijalankan dengan membuka shell / command prompt dan   mengetikkan:
+ 'java Main Color Parser ParserResult QueryResult Solver'
